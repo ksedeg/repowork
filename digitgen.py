@@ -85,7 +85,7 @@ n=raw_input("Please enter a digit: ")
 import re
 if re.match('[0-9]{1}$', n) is not None:
 	for c in d[n]:
-		s=''
+		s=' '
 	for b in c:
 		if b=='':
 			s+=' '
